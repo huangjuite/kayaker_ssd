@@ -6,3 +6,4 @@ pre-trained-model/
 model.*
 events.out.tfevents*
 pre-trained-model/
+trained-inference-graphs/
