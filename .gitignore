@@ -1,7 +1,11 @@
 .vscode/
 images/
+<<<<<<< HEAD
 pre-trained-model/
 *.csv
 *.record
 model.*
 events.out.tfevents*
+=======
+pre-trained-model/
+>>>>>>> 74cdf08bdb9cb8362343f3e20741b03a53428703

@@ -3,10 +3,16 @@ Usage:
 
 # Create train data:
 python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/train_labels.csv  --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/train.record
+<<<<<<< HEAD
 --img_path=<PATH_TO_IMAGES_FOLDER>/train 
 # Create test data:
 python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/test_labels.csv  --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/test.record
 --img_path=<PATH_TO_IMAGES_FOLDER>/train 
+=======
+
+# Create test data:
+python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/test_labels.csv  --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/test.record
+>>>>>>> 74cdf08bdb9cb8362343f3e20741b03a53428703
 """
 
 from __future__ import division
