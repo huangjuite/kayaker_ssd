@@ -1,0 +1,7 @@
+.vscode/
+images/
+pre-trained-model/
+*.csv
+*.record
+model.*
+events.out.tfevents*
